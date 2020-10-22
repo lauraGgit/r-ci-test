@@ -4,3 +4,7 @@ mydata <- read.table(fileNAME, header=TRUE,
 
 smiles <- mydata$x2
 molweight <- mydata$x2
+
+increment <- function(value) {
+  value + 1
+}
